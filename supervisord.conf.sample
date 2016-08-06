@@ -1,0 +1,7 @@
+[program:netsec]
+command=/opt/netsec/main.py
+process_name=netsec
+directory=/opt/netsec
+stderr_logfile=/var/log/supervisor/netsec.stderr.log
+stdout_logfile=/var/log/supervisor/netsec.stdout.log
+stopsignal=INT
